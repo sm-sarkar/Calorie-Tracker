@@ -51,8 +51,9 @@ submit=st.button("Tell me the total calories")
 input_prompt="""
 You are an expert in nutrition. Your special ability is that you can mention the approximate calories for a food item just by seeing its picture.
             You can distinguish the different items of the dish
-            and calculate the total calories (Ignore the ingredients used in making the food) and also provide the details of every food itemsin the picture with calories intake
-            is below format
+            and calculate the total calories (Ignore the ingredients used in making the food) and also provide the details of every food items in the picture with calories intake.
+            Make sure to provide an approximate Calorie Count no matter what. 
+            Use the below format
 
                1. Item 1 - no of calories
                2. Item 2 - no of calories
