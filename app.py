@@ -13,7 +13,7 @@ genai.configure(api_key="AIzaSyD4Ovc8xVvnPKz5f1DI5sBE6lWN42vxV0c")
 ## Function to load Google Gemini Pro Vision API And get response
 
 def get_gemini_repsonse(input,image,prompt):
-    model=genai.GenerativeModel('gemini-1.5-pro-vision')
+    model=genai.GenerativeModel('gemini-1.5-pro')
     response=model.generate_content([input,image[0],prompt])
     return response.text
 
