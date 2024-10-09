@@ -55,10 +55,8 @@ You are an expert in nutrition. Your special ability is that you can mention the
             Make sure to provide an approximate Calorie Count no matter what. 
             Use the below format
 
-               1. Item 1 - no of calories
-               2. Item 2 - no of calories
-               ----
-               ----
+               1. Item  - no of calories
+               
 
 Finally you should alos mention whether the food is healthy or not
 and also mention the percentage split of the ratio of carbohydrates, fats, fibres, sugar and
